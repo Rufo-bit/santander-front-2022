@@ -5,6 +5,7 @@ body {
 h1 {
     color: #025157;
     text-align: center;
+    font-family: 'Alegreya', serif;
 }
 
 p {
@@ -25,6 +26,76 @@ button {
 
 img {
     width: 70%;
+}
+
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+}
+
+.header>* {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+li {
+    display: inline;
+}
+
+.logo {
+    width: 15%;
+}
+
+/*Todos los hijos de la clase logo, que en este caso es img*/
+.logo>img {
+    width: 50%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+}
+
+.menu-item {
+    display: inline;
+    margin: 0 25px;
+}
+
+.actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions * {
+    margin: 0 10px;
+}
+
+.sig-in {
+    color: #67b54b;
+    text-decoration: none;
+}
+
+.button-action {
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.main {
+    margin-top: 120px;
+    text-align: center;
 }
 
 .contenedor-img {
