@@ -1,3 +1,22 @@
+html{
+    /*Establecemos un tamaño de fuente para la página, lo ponemos en porcentaje para que sea relativa la medida, también para que respete 
+    los cambios de tamaño del usuario*/
+    font-size: 70%;
+    /*REM->Unidad de medida que se basa en la raíz de nuestro documento
+    EM->Unidad de medida que se basa en el tamaño de fuente del elemento que se encuentran
+    
+    Por ejemplo
+    .btn-rem{
+        font-size: 5rem;
+        padding: .5em; -> este siempre cambia al tamaño de font-size, pues su medida se basa en el elemento más arriba
+    }
+    
+    Casí siempre los font size van con rem, los demás elementos van con em
+    */
+
+    
+}
+
 body {
     background-color: #fffbf7;
 }
@@ -6,12 +25,13 @@ h1 {
     color: #025157;
     text-align: center;
     font-family: 'Alegreya', serif;
+    font-size: 6rem;
 }
 
 p {
     color: #8b8b8bcc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -37,7 +57,7 @@ img {
 
 .header>* {
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.8rem;
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
@@ -71,7 +91,7 @@ li {
 .actions {
     width: 15%;
     text-align: left;
-    font-size: 14px;
+    font-size: 1.3rem;
     font-weight: 600;
 }
 
