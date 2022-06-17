@@ -1,4 +1,4 @@
-html{
+html {
     /*Establecemos un tamaño de fuente para la página, lo ponemos en porcentaje para que sea relativa la medida, también para que respete 
     los cambios de tamaño del usuario*/
     font-size: 70%;
@@ -14,11 +14,11 @@ html{
     Casí siempre los font size van con rem, los demás elementos van con em
     */
 
-    
+
 }
 
 body {
-    background-color: #fffbf7;
+    background-color: #ebc7a3ab;
 }
 
 h1 {
