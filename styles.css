@@ -21,6 +21,10 @@ body {
     background-color: #fffbf7;
 }
 
+.text-black {
+    color: #343434;
+}
+
 h1,h2 {
     color: #025157;
     text-align: center;
@@ -65,9 +69,18 @@ img {
 .header>* {
     display: inline-block;
     font-size: 1.8rem;
-    line-height: 45px;
+    line-height: 10px;
     height: 100%;
     vertical-align: middle;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(237, 232, 232, 0.907);
+    height: 150px;
 }
 
 li {
@@ -80,7 +93,8 @@ li {
 
 /*Todos los hijos de la clase logo, que en este caso es img*/
 .logo>img {
-    width: 50%;
+    line-height: 10px;
+    width: 30%
 }
 
 .navbar {
@@ -96,7 +110,7 @@ li {
 }
 
 .actions {
-    width: 15%;
+    width: 20%;
     text-align: left;
     font-size: 1.3rem;
     font-weight: 600;
@@ -121,7 +135,7 @@ li {
 }
 
 .main {
-    margin-top: 120px;
+    margin-top: 285px;
     text-align: center;
 }
 
@@ -129,6 +143,28 @@ li {
     display: flex;
     justify-content: center;
 
+}
+
+.publish {
+    margin-left: 35px;
+}
+
+.video-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-col img {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
 }
 
 .case-study{
