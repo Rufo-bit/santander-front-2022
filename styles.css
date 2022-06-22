@@ -36,7 +36,7 @@ p {
     color: #8b8b8bcc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5rem;
-    text-align: center;
+
 }
 
 form {
@@ -165,6 +165,54 @@ li {
     width: 70%;
     margin: 100px auto;
     align-items: center;
+}
+
+.features{
+    background-color: #025157;
+    padding: 95px 190px;
+    display: grid;
+    /*height: 660px;*/
+    grid-template: repeat(2, 330px) / repeat(2, 50%);
+}
+
+.feature-card{
+    background-color: #fff;
+    margin: 0 15px 30px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.feature-content{
+    width: 60%;
+    padding: 30px 20px 40px 40px;
+}
+
+.feature-image{
+    width: 40%;
+    margin-bottom: 16px;
+}
+
+.features .feature-card .feature-content img{
+    width: 50px;
+}
+
+.features .feature-card .feature-content h3{
+    font-size: 2rem;
+    color: #343434;
+    font-weight: 400;
+}
+
+.features .feature-card .feature-content p{
+    font-size: 1.5rem;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.features .feature-card .feature-content a{
+    font-size: 2rem;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .case-study{
