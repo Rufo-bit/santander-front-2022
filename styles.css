@@ -1,4 +1,4 @@
-html{
+html {
     /*Establecemos un tamaño de fuente para la página, lo ponemos en porcentaje para que sea relativa la medida, también para que respete 
     los cambios de tamaño del usuario*/
     font-size: 70%;
@@ -14,7 +14,7 @@ html{
     Casí siempre los font size van con rem, los demás elementos van con em
     */
 
-    
+
 }
 
 body {
@@ -25,7 +25,8 @@ body {
     color: #343434;
 }
 
-h1,h2 {
+h1,
+h2 {
     color: #025157;
     text-align: center;
     font-family: 'Alegreya', serif;
@@ -46,13 +47,13 @@ form {
 button {
     color: #fff;
     background-color: #025157;
-    border:none;
+    border: none;
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 1.4rem;
-    border-radius:8px;
+    border-radius: 8px;
 }
 
 img {
@@ -167,7 +168,7 @@ li {
     align-items: center;
 }
 
-.features{
+.features {
     background-color: #025157;
     padding: 95px 190px;
     display: grid;
@@ -175,47 +176,48 @@ li {
     grid-template: repeat(2, 330px) / repeat(2, 50%);
 }
 
-.feature-card{
+.feature-card {
     background-color: #fff;
     margin: 0 15px 30px;
     border-radius: 8px;
     display: flex;
 }
 
-.feature-content{
+.feature-content {
     width: 60%;
     padding: 30px 20px 40px 40px;
 }
 
-.feature-image{
+.feature-image {
     width: 40%;
     margin-bottom: 16px;
 }
 
-.features .feature-card .feature-content img{
+.features .feature-card .feature-content img {
     width: 50px;
 }
 
-.features .feature-card .feature-content h3{
+.features .feature-card .feature-content h3 {
     font-size: 2rem;
     color: #343434;
     font-weight: 400;
 }
 
-.features .feature-card .feature-content p{
+.features .feature-card .feature-content p {
     font-size: 1.5rem;
     color: #7e7e7e;
     font-weight: 400;
 }
 
-.features .feature-card .feature-content a{
+.features .feature-card .feature-content a {
     font-size: 2rem;
     color: #67b54b;
     font-weight: 600;
     text-decoration: none;
 }
 
-.case-study{
+/***********Case study**************/
+.case-study {
     display: flex;
     justify-content: center;
     background-color: #a1d683;
@@ -223,32 +225,138 @@ li {
     padding: 5% 15%;
 }
 
-.text-study{
+.text-study {
     display: flex;
     flex-direction: column;
     width: 60%;
     margin: 10px;
     padding: 15px;
 }
-.text-study p{
+
+.text-study p {
     color: black;
 }
 
-.text-study button{
+.text-study button {
     width: 25%;
 }
 
-.slider-study{
+.slider-study {
     width: 40%;
     margin: 10px;
     padding: 15px;
 }
 
-.slider-header img{
+.slider-header img {
     width: 60%;
 }
 
-.slider-footer{
+.slider-footer {
     width: 60%;
     background-color: #fff;
+}
+
+/************HOW DOES IT WORK*************/
+.how-does-it-work {
+    background-color: #fffbf7;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.text-work {
+    margin: 0 15px 30px;
+    text-align: center;
+}
+
+.text-work button {
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 6px;
+    width: 15%;
+}
+
+.how-does-it-work .steps {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.how-does-it-work .steps .card-step {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.how-does-it-work .steps .card-step .image-step {
+    text-align: center;
+    position: relative;
+    height: 350px;
+}
+
+.how-does-it-work .steps .card-step .image-step img {
+    width: auto;
+    height: 100%;
+}
+
+.how-does-it-work .steps .body-step {
+    padding: 25px;
+}
+
+.how-does-it-work .steps .body-step h2 {
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.how-does-it-work .steps .body-step p {
+    font-size: 1rem;
+    color: black;
+}
+
+.how-does-it-work .steps .body-step a {
+    font-size: 2rem;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.feature-image {
+    width: 40%;
+    margin-bottom: 16px;
+}
+
+.feature-content {
+    width: 60%;
+    padding: 30px 20px 40px 40px;
+}
+
+
+.features .feature-card .feature-content img {
+    width: 50px;
+}
+
+.features .feature-card .feature-content h3 {
+    font-size: 2rem;
+    color: #343434;
+    font-weight: 400;
+}
+
+.features .feature-card .feature-content p {
+    font-size: 1.5rem;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.features .feature-card .feature-content a {
+    font-size: 2rem;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
 }
